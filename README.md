@@ -1,6 +1,7 @@
 # CRUD FASTAPI POSTGRES STREAMLIT
 
-Projeto de CRUD com Back e Front-end utilizandos os seguintes recursos e frameworks:
+#### Projeto de CRUD com Back e Front-end utilizandos os seguintes recursos e frameworks:
+
     * `Postgres`: Banco de Dados (SGBD) Utilizado na Aplicação.
     * `Sqlalchemy`: Biblioteca para Conexão e Comunicação com Banco de Dados. Ele é um ORM (Object Relational Mapper), que é uma técnica de mapeamento objeto-relacional que permite fazer a comunicação com o banco de dados utilizando objetos.
     * `Pydantic`: Biblioteca de Validação de Dados. Responsável pelo Schema e validação dos Dados Recebidos e Enviados via API.
@@ -11,13 +12,13 @@ Projeto de CRUD com Back e Front-end utilizandos os seguintes recursos e framewo
     * `Streamlit`: Biblioteca para construir aplicações web com Python. Ele é muito utilizado para construir dashboards, e também para construir aplicações que consomem APIs.
 
 
-## Instalação via docker
+####  Instalação via docker
 
 ```bash
 docker-compose up -d --build
 ```
 
-## Nossa estrutura de pastas e arquivos
+####  Nossa estrutura de pastas e arquivos
 
 ```bash
 ├── backend
